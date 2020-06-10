@@ -2,3 +2,17 @@
     height: 100%;
     width: 100%;
 }
+
+.jouana--section-home {
+    @extend .jouana--section;
+}
+
+.jouana--section-missions {
+    @extend .jouana--section;
+    background-color: #ff0055;
+}
+
+.jouana--section-skills {
+    @extend .jouana--section;
+    background-color: #e09200;
+}

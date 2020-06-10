@@ -7,17 +7,23 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <section class="jouana--section">
-        section 1
-    </section>
-    <section class="jouana--section">
-        section 2
-    </section>
-    <section class="jouana--section">
-        section 3
-    </section>
-    <section class="jouana--section">
-        section 4
-    </section>
+    <div class="jouana--main-container" id="jouana--main-container">
+        <section id="section1" class="jouana--section-home">
+            {% include home.html %}
+        </section>
+        <section id="section2" class="jouana--section-missions">
+            section 2
+        </section>
+        <section id="section3" class="jouana--section-skills">
+            section 3
+        </section>
+    </div>
 </body>
+<script src="/assets/scripts/change-page-handler.js" >
+</script>
+<script>
+    (function() {
+        changePageHandler({ maxSection: 3 })
+    })();
+</script>
 </html>
