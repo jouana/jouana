@@ -5,14 +5,6 @@
 
 .jouana--section-home {
     @extend .jouana--section;
+    background-color: #011b25;
 }
-
-.jouana--section-missions {
-    @extend .jouana--section;
-    background-color: #ff0055;
-}
-
-.jouana--section-skills {
-    @extend .jouana--section;
-    background-color: #e09200;
-}
+    
